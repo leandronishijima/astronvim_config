@@ -7,4 +7,5 @@ return {
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
   { import = "astrocommunity.scrolling.cinnamon-nvim" },
+  { import = "astrocommunity.motion.hop-nvim" },
 }
