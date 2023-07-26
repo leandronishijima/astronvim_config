@@ -13,7 +13,7 @@ return {
       null_ls.builtins.formatting.stylua,
       null_ls.builtins.formatting.mix,
       null_ls.builtins.diagnostics.credo,
-      null_ls.builtins.formatting.rubocop,
+      null_ls.builtins.diagnostics.rubocop,
     }
     return config -- return final config table
   end,
