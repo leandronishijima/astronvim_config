@@ -32,7 +32,7 @@ return {
       }
       opts.presets = {
         lsp_doc_border = true, -- add a border to hover docs and signature help
-        inc_rename = true,     -- enables an input dialog for inc-rename.nvim
+        inc_rename = true, -- enables an input dialog for inc-rename.nvim
       }
     end,
   },
