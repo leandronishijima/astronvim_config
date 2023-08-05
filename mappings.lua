@@ -3,6 +3,8 @@
 -- Please use this mappings table to set keyboard mapping since this is the
 -- lower level configuration and more robust one. (which-key will
 -- automatically pick-up stored data by this setting.)
+local utils = require "astronvim.utils"
+
 return {
   -- first key is the mode
   n = {
@@ -23,6 +25,7 @@ return {
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     ["<leader>by"] = { ':let @+ = expand("%")<cr>', desc = "Copy relative path" },
+    ["<leader>td"] = { function() utils.toggle_term_cmd "lazydocker" end, desc = "ToggleTerm lazydocker" },
   },
   t = {
     -- setting a mapping to false will disable it
