@@ -18,6 +18,7 @@ return {
     cond = not vim.g.neovide,
     opts = function(_, opts)
       opts.messages = {
+        enabled = false,
         view_search = false,
       }
       opts.routes = {
@@ -25,7 +26,6 @@ return {
           filter = {
             event = "msg_show",
             kind = "",
-            find = "written",
           },
           opts = { skip = true },
         },

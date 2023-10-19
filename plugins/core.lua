@@ -20,6 +20,9 @@ return {
       return opts
     end,
   },
+  { "lukas-reineke/indent-blankline.nvim", opts = {
+    scope = { show_start = true, show_end = true },
+  } },
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
